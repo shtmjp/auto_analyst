@@ -1,6 +1,11 @@
-# Arxiv_gpt
-
-- Summarize papers and send them to discord.
-  - Use Google Gemini API
-  - Avoid duplicates by recording posts to Spreadsheet
-  - Deployed on render.com
+# auto_analyst
+- Explain stock prices in relation to news.
+  - Fetch OHLCV data from yfinance API and news data from NewsAPI.
+  - Use gemini-flash-1.5 to summarize price movements & news.
+  - Deployed on render.com.
+ 
+- Todo
+  - Identify undervalued stocks based on BS&PL analysis
+  - Deal with Japanese stocks
+  - Summarize the entire market
+  - Make some prediction by ML
